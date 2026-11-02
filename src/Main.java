@@ -4,8 +4,6 @@ public class Main {
         int quantity = 2;
         int price = Menu.getPrice(menu);
         int total = OrderCalculator.calculate(price, quantity);
-        System.out.println("주문");
-        System.out.println("메뉴: " + menu + ", 수량: " + quantity);
-        System.out.println("총금액: " + total + "원");
+        System.out.println(OrderSummary.format(menu, quantity, total));
     }
 }
