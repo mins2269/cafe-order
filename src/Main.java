@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
         String menu = "아메리카노";
         int quantity = 2;
         int price = Menu.getPrice(menu);
