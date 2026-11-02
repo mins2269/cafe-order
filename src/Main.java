@@ -4,6 +4,6 @@ public class Main {
         int quantity = 2;
         int price = Menu.getPrice(menu);
         int total = OrderCalculator.calculate(price, quantity);
-        OrderSummary.format(menu, quantity, total);
+        System.out.println(OrderSummary.format(menu, quantity, total));
     }
 }
